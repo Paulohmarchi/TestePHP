@@ -1,0 +1,7 @@
+SELECT 
+	*
+FROM 
+	Funcionario
+WHERE
+	Nome LIKE 'M%'
+	AND (Salario BETWEEN 1000.00 AND 1500.00);
